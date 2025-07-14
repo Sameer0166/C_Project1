@@ -14,11 +14,11 @@ int main()
     scanf("%c",&ch);
 if(ch>='a' && ch<='z')
 {
- printf("given character is the lower case\n");   
+ printf("given character %c is the lower case\n",ch);   
 }
 else if (ch>='A' && ch<='Z')
 {
-    printf("given character is the upper case ");
+    printf("given character %c is the upper case\n",ch);
 }
 else{
     printf("given character is not an alphabet\n");
