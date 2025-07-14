@@ -11,7 +11,7 @@ int main(){
     The program is useful for understanding the basic structure of a for loop, including initialization, condition
     and incrementing the loop variable.
     */
-    for (j=0;j<=9;j++)
+    for (j=0;j<=9;++j)
     {
         printf("%d\n",j);
     }
