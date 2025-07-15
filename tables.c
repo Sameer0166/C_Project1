@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int m,n,j,k;
+int m,n,j;
 /*
 This program uses a for loop to print the multiplication table of a given number 'n'
 from 'm' to 'j'.
@@ -15,7 +15,7 @@ repetitive calculations, specifically for generating multiplication tables.
 The program is useful for understanding the basic structure of a for loop, including initialization, condition,
 incrementing the loop variable, and performing calculations within the loop.
 */
-printf("enter the value of n:");
+printf("enter the value of n:");   
 scanf("%d",&n);
 printf("enter the value of m:");
 scanf("%d",&m);
