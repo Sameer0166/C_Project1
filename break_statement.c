@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-{
+{int i;
     /*
     This program demonstrates the use of a break statement within a for loop.
     The for loop initializes the variable 'i' to 1 and continues to execute the loop
@@ -13,13 +13,16 @@ int main()
     The program is useful for understanding the basic structure of a for loop, including initialization, condition,
     incrementing the loop variable, and using a break statement to exit the loop early.
     */
-    for(int i=0;i<=10;i++)
+    for( i=0;i<=10;i++)
     {
         if(i==5){
         break ; // Exit the loop when i equals 5
         }
     
-    printf("%d\n",i);}
-return 0;
+    printf("%d\n",i);   
+}
+    printf("Exited the loop at i = %d\n", i); // Indicating where the loop was exited
+    printf("Loop completed.\n"); // Indicating the end of the loop
+    return 0;
 
 }
