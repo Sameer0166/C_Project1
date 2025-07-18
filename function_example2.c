@@ -6,30 +6,29 @@ int main()
     char ch,f;
     printf("enter the f for french and i for indian:");
     scanf("%c",&ch);
-
     if(ch=='f')
     {
        french();
     }
-   
     else if (ch=='i')
     {
-         indian();
-        
+         indian();     
     }
-    else if(ch!='i'&&ch!='f'){
-printf("enter i or f\nenter the valid country");
+    else if(ch!='i'&&ch!='f')
+    {
+    printf("enter i or f\nenter the valid country");
     }
     else
     {
         printf("enter the valid country");
     }
-  
     return 0;
 }
-void indian(){
+    void indian()
+    {
     printf("namaste\n");  
-}
-void french(){
+    }
+    void french()
+    {
     printf("bonjour\n");
-}
+    }
