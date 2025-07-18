@@ -8,7 +8,7 @@ return 0;
 }
 void helloworld()// function definition
 { //we can write "n" no.of printing statements in this function
- // And this function can be called any number of times in the program.
+ // And this function can be called "n" number of times in the program.
 //
  /*
     This function prints a simple message to the console.
