@@ -24,4 +24,3 @@ The program is useful for understanding the basic structure of a for loop,includ
 incrementing the loop variable, and performing calculations within the loop.
 */
 }
-
